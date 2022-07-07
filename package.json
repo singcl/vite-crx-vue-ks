@@ -1,11 +1,12 @@
 {
   "name": "vite-crx-vue-ks",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version --prerelease alpha"
   },
   "dependencies": {
     "vue": "^3.2.25"
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@crxjs/vite-plugin": "^1.0.12",
     "@vitejs/plugin-vue": "^2.3.3",
+    "standard-version": "^9.5.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"
