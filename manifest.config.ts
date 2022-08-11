@@ -3,11 +3,13 @@ import * as packageJson from "./package.json";
 const { version } = packageJson;
 
 // Convert from Semver (example: 0.1.0-beta6)
-const [major, minor, patch, label = "0"] = version
-  // can only contain digits, dots, or dash
-  .replace(/[^\n.-]/, "")
+let [major, minor, patch, label = "0"] = version
+  // 只能包含字母，数字，下划线，中划线，点
+  .replace(/[^\d\w.-]/g, "")
   // split into version parts
-  .split(/[.-]/);
+  .split(/(?:(?<=\d)\.)|(?:-)/);
+
+label = label.replace(/[^\d\w-]/g, "");
 
 export default defineManifest(async (env) => ({
   manifest_version: 3,
