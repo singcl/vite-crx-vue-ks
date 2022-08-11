@@ -1,14 +1,14 @@
 {
   "name": "vite-crx-vue-ks",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5-alpha.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "release": "standard-version",
     "crx": "crx pack dist",
-    "build:crx": "npm run release && npm run build && npm run crx"
+    "build:crx": "npm run release -- --prerelease alpha && npm run build && npm run crx"
   },
   "dependencies": {
     "vue": "^3.2.25"
