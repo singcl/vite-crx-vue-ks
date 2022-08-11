@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/singcl/vite-crx-vue-ks/compare/v0.0.2...v0.0.3) (2022-08-11)
+
+
+### Features
+
+* **crx:** pack crx ([8d7047c](https://github.com/singcl/vite-crx-vue-ks/commit/8d7047cf277e48b81312358bc9ca8a236f2e30a7))
+
 ### [0.0.2](https://github.com/singcl/vite-crx-vue-ks/compare/v0.0.1-alpha.1...v0.0.2) (2022-07-07)
 
 
