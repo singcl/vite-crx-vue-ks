@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5-alpha.3](https://github.com/singcl/vite-crx-vue-ks/compare/v0.0.5-alpha.2...v0.0.5-alpha.3) (2022-08-11)
+
+
+### Features
+
+* **config:** version name 由数字组成 ([4ef0547](https://github.com/singcl/vite-crx-vue-ks/commit/4ef0547ecc486cdcc514f1cbbbea5a5299c29291))
+
 ### [0.0.5-alpha.2](https://github.com/singcl/vite-crx-vue-ks/compare/v0.0.5-alpha.1...v0.0.5-alpha.2) (2022-08-11)
 
 ### [0.0.5-alpha.1](https://github.com/singcl/vite-crx-vue-ks/compare/v0.0.5-alpha.0...v0.0.5-alpha.1) (2022-08-11)
