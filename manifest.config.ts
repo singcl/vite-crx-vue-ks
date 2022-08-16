@@ -10,7 +10,7 @@ let [major, minor, patch, label = "0"] = version
   .split(/(?:(?<=\d)\.)|(?:-)/);
 
 label = label.replace(/[^\d]/g, "");
-// result: 0.1.0.beta6
+// result: 0.1.0.alpha6
 
 export default defineManifest(async (env) => ({
   manifest_version: 3,
